@@ -29,4 +29,9 @@ public class LoginController {
 
     }
 
+    @RequestMapping(value = "/index")
+    public String index(){
+        return "index";
+    }
+
 }
